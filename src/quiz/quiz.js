@@ -3,9 +3,14 @@ import { useState } from "react"
 
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0)
+  const [results, setResults] = useState({})
 
   const handleNextButtonClick = () => {
     setCurrentQuestion(currentQuestion + 1)
+  }
+
+  const handleOptionClick = (e) => {
+    setResults({ ...results, [currentQuestion]: e.target.value })
   }
 
   return (
@@ -17,7 +22,12 @@ const Quiz = () => {
       <div className="quiz-options">
         {questions[currentQuestion].options.map((option, index) => (
           <label key={index} className="quiz-question-option">
-            <input type="radio" value={option} />
+            <input
+              type="radio"
+              value={option}
+              checked={results[currentQuestion] === option}
+              onChange={(e) => handleOptionClick(e)}
+            />
             <div className="quiz-option">{option}</div>
           </label>
         ))}
