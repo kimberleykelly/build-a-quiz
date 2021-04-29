@@ -1,0 +1,55 @@
+[
+    {
+         "text": "Where is Gloria from?",
+         "options": ["Spain", "Columbia", "Brazil"],
+        "correct_answer": "Columbia"
+    },
+    {
+        "text": "What is the name of Cams alter ego?",
+        "options": ["Fizbo", "Bonzo", "Bingo"],
+        "correct_answer": "Fizbo."
+    },
+    {
+        "text": "What are the names of Hayley and Dylans twins?",
+        "options": ["Poppy and George", "Philomena and Phil", "Georgina and Harry"],
+        "correct_answer": "Poppy and George"
+    },
+    {
+        "text": "Which halloween costume does Mitch show up to his office in only to realise nobody else is dressed up?",
+        "options": ["Batman", "Superman",  "Spiderman"],
+        "correct_answer": "Spiderman"
+    },
+    {
+        "text": "How many episodes of modern family are there",
+        "options": ["160", "250"],
+        "correct_answer": "250"
+    },
+    {
+        "text": "What does Phil think 'WTF' stands for?",
+        "options": ["Why The Face", "What The Falafel", "Will Type Faster"],
+        "correct_answer": "Why The Face"
+    },
+    {
+        "text": "David Beckham made a cameo apperance alongside which other famous star?",
+        "options": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow"],
+        "correct_answer": "Courtney Cox"
+    },
+    {
+        "text": "What gift does DeDe give Claire every year?",
+        "code_snippet": "",
+        "options": ["slippers", "socks", "scarves"],
+        "correct_answer": "slippers"
+    },
+    {
+        "text": "Who plays the role of Jay Pritchett's brother?",
+        "code_snippet": "",
+        "options": ["Jonathan Banks", "Bob Odenkirk", "Dean Norris"],
+        "correct_answer": "Jonathan Banks"
+    },
+    {
+        "text": "Which university does Alex attend?",
+        "code_snippet": "",
+        "options": ["Harvard University", "Caltech University", "Yale University"],
+        "correct_answer": "Caltech University"
+    }
+]
