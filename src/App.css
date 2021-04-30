@@ -31,7 +31,8 @@
 .results-container {
   margin: 20px;
 }
-.quiz-question {
+.quiz-question,
+.quiz-current-q {
   margin: 20px 0;
 }
 
