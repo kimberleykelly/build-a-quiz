@@ -56,7 +56,7 @@ const Quiz = () => {
           )}
         </div>
       )}
-      {isComplete && <Results />}
+      {isComplete && <Results results={results} questions={questions} />}
     </>
   )
 }
