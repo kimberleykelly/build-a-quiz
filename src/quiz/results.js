@@ -6,6 +6,9 @@ const Results = ({ questions, results, onRetry }) => {
   return (
     <div className="results-container">
       <div className="results-title">Results!</div>
+      <div className="results-percentage">
+        <strong>{Math.floor((score / questions.length) * 100)}%</strong>
+      </div>
       <div>
         You scored {score} / {questions.length}
       </div>

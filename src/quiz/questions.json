@@ -7,7 +7,7 @@
     {
         "text": "What is the name of Cams alter ego?",
         "options": ["Fizbo", "Bonzo", "Bingo"],
-        "correct_answer": "Fizbo."
+        "correct_answer": "Fizbo"
     },
     {
         "text": "What are the names of Hayley and Dylans twins?",
@@ -32,7 +32,7 @@
     {
         "text": "David Beckham made a cameo apperance alongside which other famous star?",
         "options": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow"],
-        "correct_answer": "Courtney Cox"
+        "correct_answer": "Courteney Cox"
     },
     {
         "text": "What gift does DeDe give Claire every year?",
