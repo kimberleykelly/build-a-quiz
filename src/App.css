@@ -32,7 +32,8 @@
   margin: 20px;
 }
 .quiz-question,
-.quiz-current-q {
+.quiz-current-q,
+.results-percentage {
   margin: 20px 0;
 }
 
