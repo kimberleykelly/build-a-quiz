@@ -17,6 +17,12 @@ const Quiz = () => {
     setResults({ ...results, [currentQuestion]: e.target.value })
   }
 
+  const resetState = () => {
+    setIsComplete(false)
+    setResults({})
+    setCurrentQuestion(0)
+  }
+
   return (
     <>
       {!isComplete && (
@@ -56,7 +62,13 @@ const Quiz = () => {
           )}
         </div>
       )}
-      {isComplete && <Results results={results} questions={questions} />}
+      {isComplete && (
+        <Results
+          results={results}
+          questions={questions}
+          onRetry={() => resetState()}
+        />
+      )}
     </>
   )
 }
