@@ -10,9 +10,12 @@ const Quiz = () => {
   const isLastQuestion = currentQuestion === questions.length - 1
 
   const handleNextButtonClick = () => {
-    setCurrentQuestion(currentQuestion + 1)
+    if (results[currentQuestion] === undefined) {
+      alert("You need to select an answer!")
+    } else {
+      setCurrentQuestion(currentQuestion + 1)
+    }
   }
-
   const handleOptionClick = (e) => {
     setResults({ ...results, [currentQuestion]: e.target.value })
   }
