@@ -1,4 +1,4 @@
-const Results = ({ questions, results }) => {
+const Results = ({ questions, results, onRetry }) => {
   return (
     <div className="results-container">
       <div className="results-title">Results!</div>
@@ -18,6 +18,9 @@ const Results = ({ questions, results }) => {
           </div>
         </div>
       ))}
+      <button className="retry-btn" onClick={() => onRetry()}>
+        RETRY
+      </button>
     </div>
   )
 }
