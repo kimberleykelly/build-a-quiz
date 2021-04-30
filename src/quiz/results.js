@@ -1,7 +1,14 @@
 const Results = ({ questions, results, onRetry }) => {
+  const score = questions.filter(
+    (question, index) => results[index] === question.correct_answer
+  ).length
+
   return (
     <div className="results-container">
       <div className="results-title">Results!</div>
+      <div>
+        You scored {score} / {questions.length}
+      </div>
       {questions.map((question, index) => (
         <div className="results-summary-container" key={index}>
           <div className="results-question">
